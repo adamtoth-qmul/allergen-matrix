@@ -2,6 +2,8 @@
   "dishes": [
     { "id": "1", "name": "Margherita Pizza", "category": "Mains", "contains": ["gluten", "milk"], "may_contain": [] },
     { "id": "2", "name": "Salmon Salad", "category": "Starters", "contains": ["fish"], "may_contain": ["sesame"] },
-    { "id": "3", "name": "Fruit Bowl", "category": "Desserts", "contains": [], "may_contain": [] }
+    { "id": "3", "name": "Fruit Bowl", "category": "Desserts", "contains": [], "may_contain": [] },
+    { "id": "4", "name": "Pad Thai", "category": "Mains", "contains": ["peanuts", "eggs", "fish", "soya"], "may_contain": ["nuts", "sesame"] }
+
   ]
 }
