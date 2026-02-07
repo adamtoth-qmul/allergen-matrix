@@ -1,9 +1,198 @@
 {
   "dishes": [
-    { "id": "1", "name": "Margherita Pizza", "category": "Mains", "contains": ["gluten", "milk"], "may_contain": [] },
-    { "id": "2", "name": "Salmon Salad", "category": "Starters", "contains": ["fish"], "may_contain": ["sesame"] },
-    { "id": "3", "name": "Fruit Bowl", "category": "Desserts", "contains": [], "may_contain": [] },
-    { "id": "4", "name": "Pad Thai", "category": "Mains", "contains": ["peanuts", "eggs", "fish", "soya"], "may_contain": ["nuts", "sesame"] }
+    {
+      "id": "1",
+      "name": "Steamed edamame, sea salt",
+      "category": "For the table",
+      "contains": ["soya"],
+      "may_contain": []
+    },
+    {
+      "id": "2",
+      "name": "Marcona almonds and nocellara del belice olives",
+      "category": "For the table",
+      "contains": ["nuts"],
+      "may_contain": ["peanuts"]
+    },
+    {
+      "id": "3",
+      "name": "Prawn crackers, sesame-nori salt",
+      "category": "For the table",
+      "contains": ["crustaceans", "sesame"],
+      "may_contain": ["gluten", "molluscs"],
+      "notes": "Fryer"
+    },
+    {
+      "id": "4",
+      "name": "Smacked cucumber, sesame chilli oil, spring onion, crispy shallots",
+      "category": "For the table",
+      "contains": ["sesame"],
+      "may_contain": []
+    },
+    {
+      "id": "5",
+      "name": "Jalapeno cornbread, chipotle butter, coriander, lime",
+      "category": "For the table",
+      "contains": ["gluten", "milk", "eggs"],
+      "may_contain": ["mustard"]
+    },
 
+    {
+      "id": "6",
+      "name": "Crisp chilli salt tofu, baby spinach, ketjap manis, spring onion, shiso, chilli, sesame",
+      "category": "Small plates",
+      "contains": ["soya", "sesame"],
+      "may_contain": [],
+      "notes": "Fryer"
+    },
+    {
+      "id": "7",
+      "name": "Garam masala labneh, fenugreek-chilli butter, spiced chickpeas, flatbread",
+      "category": "Small plates",
+      "contains": ["gluten", "milk"],
+      "may_contain": ["sesame"],
+      "notes": "Fryer"
+    },
+    {
+      "id": "8",
+      "name": "Burrata, roasted beetroot, green basil pesto, pine nuts",
+      "category": "Small plates",
+      "contains": ["milk", "nuts"],
+      "may_contain": ["sesame"]
+    },
+    {
+      "id": "9",
+      "name": "Crispy cauliflower, green tahini, gunpowder, coriander",
+      "category": "Small plates",
+      "contains": ["sesame"],
+      "may_contain": [],
+      "notes": "Fryer"
+    },
+    {
+      "id": "10",
+      "name": "Steamed fish dumplings, sambal, soy, crispy shallot, coriander cress",
+      "category": "Small plates",
+      "contains": ["gluten", "fish", "soya"],
+      "may_contain": ["crustaceans", "molluscs", "eggs"]
+    },
+    {
+      "id": "11",
+      "name": "Roasted crown prince pumpkin, goat's curd, winter caponata, sage, pumpkin seeds",
+      "category": "Small plates",
+      "contains": ["milk"],
+      "may_contain": ["nuts"],
+      "notes": "Fryer"
+    },
+    {
+      "id": "12",
+      "name": "Jamon and smoked San Simon croquettes, saffron aioli",
+      "category": "Small plates",
+      "contains": ["gluten", "milk", "eggs"],
+      "may_contain": [],
+      "notes": "Fryer"
+    },
+    {
+      "id": "13",
+      "name": "Lamb kofte, sesame labneh, pickled red cabbage, chermoula, mint",
+      "category": "Small plates",
+      "contains": ["milk", "sesame"],
+      "may_contain": []
+    },
+
+    {
+      "id": "14",
+      "name": "Grilled halloumi, herbed fregola, kale, roasted sweet potato, hot honey",
+      "category": "Grains & bowls",
+      "contains": ["gluten", "milk", "sulphites"],
+      "may_contain": ["soya", "mustard"]
+    },
+    {
+      "id": "15",
+      "name": "Burnt stem broccoli, charred sweet potato, spiced black bean salsa, green chutney, coconut yoghurt",
+      "category": "Grains & bowls",
+      "contains": [],
+      "may_contain": ["mustard", "sesame"]
+    },
+    {
+      "id": "16",
+      "name": "Braised chicken, aromatic broth, herby puy lentils, baby spinach, green tahini yoghurt, spring onion",
+      "category": "Grains & bowls",
+      "contains": ["milk", "sesame"],
+      "may_contain": []
+    },
+    {
+      "id": "17",
+      "name": "Seasoned rice, avocado, miso mayonnaise, mung beans, pickled ginger, furikake – with grilled chicken",
+      "category": "Grains & bowls",
+      "contains": ["eggs", "soya", "sesame", "celery", "mustard"],
+      "may_contain": ["crustaceans", "molluscs", "fish"]
+    },
+    {
+      "id": "18",
+      "name": "Seasoned rice, avocado, miso mayonnaise, mung beans, pickled ginger, furikake – with hot smoked salmon",
+      "category": "Grains & bowls",
+      "contains": ["fish", "eggs", "soya", "sesame", "celery", "mustard"],
+      "may_contain": ["crustaceans", "molluscs"]
+    },
+    {
+      "id": "19",
+      "name": "Seasoned rice, avocado, miso mayonnaise, mung beans, pickled ginger, furikake – with crisp chilli salt tofu",
+      "category": "Grains & bowls",
+      "contains": ["eggs", "soya", "sesame", "celery", "mustard"],
+      "may_contain": ["crustaceans", "molluscs"],
+      "notes": "Fryer"
+    },
+    {
+      "id": "20",
+      "name": "Fried rice, greens, fried egg, kimchi mayonnaise, sambal, crispy shallots, peanuts, coriander (EXMOUTH MARKET ONLY)",
+      "category": "Grains & bowls",
+      "contains": ["gluten", "eggs", "soya", "peanuts", "sesame", "celery", "mustard"],
+      "may_contain": ["nuts", "sulphites"]
+    },
+
+    {
+      "id": "21",
+      "name": "Add: Grilled chicken",
+      "category": "Add-ons",
+      "contains": [],
+      "may_contain": []
+    },
+    {
+      "id": "22",
+      "name": "Add: Fried egg",
+      "category": "Add-ons",
+      "contains": ["eggs"],
+      "may_contain": []
+    },
+    {
+      "id": "23",
+      "name": "Add: Grilled halloumi",
+      "category": "Add-ons",
+      "contains": ["milk"],
+      "may_contain": []
+    },
+    {
+      "id": "24",
+      "name": "Add: Grilled chorizo",
+      "category": "Add-ons",
+      "contains": ["sulphites"],
+      "may_contain": []
+    },
+    {
+      "id": "25",
+      "name": "Add: Grilled flatbread",
+      "category": "Add-ons",
+      "contains": ["gluten"],
+      "may_contain": []
+    },
+    {
+      "id": "26",
+      "name": "Add: Crisp chilli-salt tofu",
+      "category": "Add-ons",
+      "contains": ["soya", "sesame"],
+      "may_contain": [],
+      "notes": "Fryer"
+    }
   ]
 }
+
