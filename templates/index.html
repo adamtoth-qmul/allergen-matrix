@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Allergen Matrix</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header class="top">
+    <h1>Allergen Matrix</h1>
+    <p>Select allergens to avoid → dishes shown are safe.</p>
+  </header>
+
+  <main>
+    <section class="controls">
+      <div class="row">
+        <input id="search" class="search" type="search" placeholder="Search dishes…" />
+        <select id="category" class="select"></select>
+      </div>
+
+      <div class="row row-between">
+        <label class="check">
+          <input id="excludeMay" type="checkbox" />
+          Exclude “may contain” too
+        </label>
+
+        <button id="clear" class="clear" type="button">Clear</button>
+      </div>
+
+      <div id="chips" class="chips"></div>
+    </section>
+
+    <section>
+      <div id="count" class="count"></div>
+      <div id="list" class="list"></div>
+    </section>
+
+    <footer class="footer">
+      <p class="fineprint">Always confirm with staff for updated ingredients and cross-contamination risks.</p>
+    </footer>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
